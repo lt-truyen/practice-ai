@@ -10,7 +10,7 @@
 from transformers import VitsModel, AutoTokenizer
 import torch
 import soundfile as sf
-from IPython.display import Audio  # Optional for Jupyter playback
+#from IPython.display import Audio  # Optional for Jupyter playback
 import simpleaudio as sa
 
 
@@ -61,6 +61,7 @@ play_obj.wait_done()  # Chờ phát xong
 # Step 8: Notes
 # - You can change the input text to test other sentences.
 # - For deployment, consider using Hugging Face Spaces with Gradio or Streamlit.
+
 
 
 #Run: py practice7.py
