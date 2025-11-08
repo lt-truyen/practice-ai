@@ -1,6 +1,7 @@
 from win10toast_click import ToastNotifier
 import webbrowser
-
+#pip install win10toast-click
+#notify.py
 def on_click(url):
     print("Thông báo đã được nhấp!")
     webbrowser.open(url)  # Mở trình duyệt tới URL
